@@ -37,7 +37,6 @@ function Router() {
       <Route path={"/contact"} component={Contact} />
       <Route path={"/dashboard-user"} component={UserDashboard} />
       <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
       <Route component={NotFound} />
     </Switch>
   );
