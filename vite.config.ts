@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': join(__dirname, 'client/src'), // ปรับให้ตรงกับโครงสร้างจริง
+      '@': join(__dirname, 'client/src'),
     },
   },
   server: {
